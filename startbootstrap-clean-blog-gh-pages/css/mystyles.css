@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0; /* Example of a custom background color */
+    font-family: 'Arial', sans-serif; /* Font family applied globally */
+}
+
+.custom-background {
+    background-image: url('background.jpg'); /* Assuming you have a background.jpg in the same directory */
+    color: #333; /* Font color */
+}
+
+ol > li {
+    color: #0056b3; /* Styles for ordered list */
+}
+
+ul > li {
+    color: #008000; /* Styles for unordered list items */
+}
+
+iframe {
+    display: block;
+    margin: 20px auto; /* Centering iframes */
+}
+
+/* Div positioning and styling */
+div#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    
+}
